@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+/*
+//////////layout
+*/
+.main{
+    width: 50%;
+    margin: 5% auto;
+    padding: 3%;
+    border-radius: 2%;
+} 
+
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2%;
+}
+.header h1, .header p{
+    padding: 2% 0%;
+
+}
+
+.prepTime *{
+    border-radius: 2%;
+    padding: 1% 0%;
+    margin-left: 3%;
+}
+
+.ingredients *{
+    padding: 1% 0%;
+    margin-left: 3%;
+}
+.instructions *{
+    padding: 1% 0%;
+}
+
+.instructions  ol{
+    margin-left: 3%;
+}
+
+
+/*
+colors////////////
+*/
+
+body {
+    background-color: rgb(243, 229, 216)
+}
+
+.main {
+    background-color: white; 
+}
+
+.prepTime {
+    background-color:rgb(255, 247, 252);
+}
+
+body {
+font-size: 2rem;
+}
