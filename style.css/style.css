@@ -14,7 +14,7 @@ html {
     margin: 5% auto;
     padding: 3%;
     border-radius: 2%;
-} 
+}
 
 
 img{
@@ -38,6 +38,8 @@ img{
     padding: 1% 0%;
     margin-left: 3%;
 }
+
+
 .instructions *{
     padding: 1% 0%;
 }
@@ -45,7 +47,12 @@ img{
 .instructions  ol{
     margin-left: 3%;
 }
-
+.nutrition *{
+    padding: 1% 0;
+}
+table {
+    width: 100%;
+}
 
 /*
 colors////////////
@@ -56,7 +63,7 @@ body {
 }
 
 .main {
-    background-color: white; 
+    background-color: white;
 }
 
 .prepTime {
@@ -65,4 +72,21 @@ body {
 
 body {
 font-size: 2rem;
+}
+
+h1, h2{
+    color: brown;
+}
+
+td + td {
+    color: brown;
+}
+/* extra style */
+
+.botBorder {
+    border-bottom: 1px solid silver;
+}
+
+tr, td {
+    border-bottom: 1px solid silver;
 }
